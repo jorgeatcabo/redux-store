@@ -29,18 +29,18 @@ E-commerce platform that uses Redux to manage global state.
 
 Reviewing the app’s store you find that the app uses a Redux store instead of the Context API. Also the way the React front end accesses the store you find that the app uses a Redux provider.
 
-WHEN I review the way the app determines changes to its global state
-THEN I find that the app passes reducers to a Redux store instead of using the Context API
-WHEN I review the way the app extracts state data from the store
-THEN I find that the app uses Redux instead of the Context API
-WHEN I review the way the app dispatches actions
-THEN I find that the app uses Redux instead of the Context API
+Reviewing the way the app determines changes to its global state you find that the app passes reducers to a Redux store instead of using the Context API.
+
+Reviewing the way the app extracts state data from the store you find that the app uses Redux instead of the Context API.
+
+Reviewing the way the app dispatches actions you find that the app uses Redux instead of the Context API.
+
 
 # Contribution
-
+It is necessary to know NodeJs, Apollo Server, Apollo Client, GraphQL API, MongoDb, Mongoose ODM, JWT, ReactJs and Redux. You can contribute reporting bugs, suggesting enhacements, pull requests. Best practices for class/id naming conventions, indentation, quality comments, etc.
 
 # Test
-For local testing use: "git clone ", “npm install” and "npm run develop". For testing on a deployment URL use: 
+For local testing use: "git clone git@github.com:jorgeatcabo/redux-store.git", “npm install” and "npm run develop". For testing on a deployment URL use: https://vast-escarpment-98534.herokuapp.com/ 
 
 # Questions
 https://github.com/jorgeatcabo
@@ -52,4 +52,4 @@ MIT
 
 ----
 
-![App Working](./client/public/)
+![App Working](./client/public/redux-store.gif)
